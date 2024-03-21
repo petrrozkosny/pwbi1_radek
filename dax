@@ -1,0 +1,9 @@
+05 suma srazek predchozi rok = 
+
+SUMX(
+    FILTER(
+        ALL(data),
+    data[lokalita] = SELECTEDVALUE(data[lokalita])
+    && data[mesic] = SELECTEDVALUE(data[mesic])
+    && data[rok] = SELECTEDVALUE(data[rok]) - 1),
+data[srazky])
