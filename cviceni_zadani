@@ -5,6 +5,8 @@ cv03 minimalni datum ruzyne: Minimální datum v daném roce, měsíci, lokalit�
 
 cv09 pocet tropickych dnu ruzyne= Počet datumů v daném měsíci a roce,
 kdy v lokalitě RUZYNE byla maximalni_teplota > 30
+cv10 Poslední datum RUZYNE, kdy v daném měsíci a roku byla naměřena maximální teplota ruzyne
+pro daný rok a měsíc
 
 cv04 minimalni datum rok: Minimální datum v daném roce bez ohledu na měsíc
 cv05 minimalni datum predchozi rok: Minimální datum ve stejném měsíci předchozího roku
